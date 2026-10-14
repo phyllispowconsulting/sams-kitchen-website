@@ -1,0 +1,23 @@
+SAM'S KITCHEN — THREE-PAGE HTML SITE
+DOMAIN: https://www.samskitchenbar.com/
+
+UPLOAD
+1. Hostinger > Websites > Dashboard for samskitchenbar.com > File Manager.
+2. Back up existing contents and configuration first. If WordPress/index.php exists, stop and decide how to replace the existing site before uploading.
+3. Upload and extract this ZIP directly into the domain document root, usually public_html. Do not place it inside a second folder.
+4. Include index.html, menu.html, about.html, style.css, site.js, site-config.js, images/, fonts/, robots.txt, sitemap.xml and .htaccess. Enable viewing hidden files to see .htaccess. Merge existing .htaccess rules rather than blindly overwrite.
+5. Confirm www DNS points to the correct hosting and SSL covers both www and non-www. Enable Force HTTPS in Hostinger after SSL is active.
+6. Test https://www.samskitchenbar.com/, /menu.html, /about.html, /sitemap.xml and /robots.txt. Check non-www redirects and /index.html redirects. The Home navigation uses /.
+
+EDIT
+Photos: replace exact image filenames in images/ with matching actual formats, then upload and clear cache. Header logo also powers opening animation.
+Menu items/prices: menu.html. About copy: about.html. Home copy: index.html. Shared styling: style.css.
+Business/contact settings: site-config.js. Enter real details. The HTML source also contains business details and SEO text; update it too so crawlers and JavaScript-disabled visitors see the same information.
+Add WhatsApp number with country code, digits only to enable requests. Customers must send the WhatsApp message; staff confirm manually. Earlier times today are rejected. Opening hours/closed-day rules must be configured after the restaurant confirms its hours.
+Add fullMenuUrl and takeawayMenuUrl to show download buttons. They stay hidden when unavailable.
+
+BEFORE LAUNCH
+Confirm actual address, opening hours, contacts, menu accuracy, privacy/retention information and source image rights. Complete full licensed font files if additional characters are needed (PDF fonts are subsets). Restaurant-specific schema needs the actual address/hours/contact details; only basic WebSite schema is present now. Privacy dialog explains WhatsApp handoff but is not a completed legal policy.
+Check mobile and desktop appearance, keyboard navigation, opening animation, links and an end-to-end WhatsApp request. File/JavaScript checks were completed; live browser rendering and server redirects still need testing.
+The supplied robots.txt permits indexing. If building privately, use password protection in hosting; do not upload publicly and assume robots makes it private. Remove protection when ready, then submit sitemap.xml to Google Search Console and inspect all three pages.
+Keep backups. No WordPress installation or plugins are needed for this package.

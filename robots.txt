@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.samskitchenbar.com/sitemap.xml
