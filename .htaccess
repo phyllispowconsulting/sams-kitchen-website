@@ -1,0 +1,11 @@
+DirectoryIndex index.html
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^samskitchenbar\.com$ [NC]
+RewriteRule ^ https://www.samskitchenbar.com%{REQUEST_URI} [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/+index\.html(?:[?\s]) [NC]
+RewriteRule ^index\.html$ https://www.samskitchenbar.com/ [R=301,L]
+</IfModule>
